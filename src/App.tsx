@@ -1,9 +1,11 @@
-import './App.css';
+import React from "react";
+import SchemaBuilder from "./components/SchemaBuilder";
 
 function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div style={{ padding: 30 }}>
+      <h2>JSON Schema Builder</h2>
+      <SchemaBuilder />
     </div>
   );
 }
